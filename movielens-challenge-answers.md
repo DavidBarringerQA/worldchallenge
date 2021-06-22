@@ -3,6 +3,8 @@
 
 
 
+\#+OPTIONS ^:nil
+
 1.  \#+BEGIN-SRC SQL
     SELECT title, release<sub>date</sub> FROM movies WHERE release<sub>date</sub> BETWEEN '1983-01-01' AND '1993-12-31' ORDER BY release<sub>date</sub> ASC;
     \#+END-SRC
